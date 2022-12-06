@@ -40,5 +40,9 @@ public class Ekspres {
         System.out.println("Uzupełniono " + (10 - iloscKawy) + " jednostki kawy");
         System.out.println("Uzupełniono " + (10 - iloscWody) + " jednostki wody");
         System.out.println("Uzupełniono " + (5 - iloscMleka) + " jednostki mleka");
+
+        zasobniki.put(KAWA, 10);
+        zasobniki.put(WODA, 10);
+        zasobniki.put(MLEKO, 5);
     }
 }
