@@ -45,4 +45,16 @@ public class Ekspres {
         zasobniki.put(WODA, 10);
         zasobniki.put(MLEKO, 5);
     }
+
+    public int getIloscWody() {
+        return zasobniki.get(WODA);
+    }
+
+    public int getIloscKawy() {
+        return zasobniki.get(KAWA);
+    }
+
+    public int getIloscMleka() {
+        return zasobniki.get(MLEKO);
+    }
 }
