@@ -37,7 +37,8 @@ public class Ekspres {
         Integer iloscWody = zasobniki.get(WODA);
         Integer iloscMleka = zasobniki.get(MLEKO);
 
-        System.out.println("Uzupełniono " + (10 - iloscKawy) + " jednostki kawy");
+        int maksymalnaPojemnoscKawy = 10;
+        System.out.println("Uzupełniono " + (maksymalnaPojemnoscKawy - iloscKawy) + " jednostki kawy");
         System.out.println("Uzupełniono " + (10 - iloscWody) + " jednostki wody");
         System.out.println("Uzupełniono " + (5 - iloscMleka) + " jednostki mleka");
 
